@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/john/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -72,7 +72,6 @@ plugins=(
     git
     z
     colored-man-pages
-    zsh-syntax-highlighting
 )
 
 
@@ -106,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 source $(dirname $(gem which colorls))/tab_complete.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias lc='colorls -A --sd --sf'
 PATH=$PATH:$(ruby -e 'puts Gem.bindir')
 [ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"
