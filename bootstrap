@@ -23,7 +23,8 @@ if [[ `uname` == "Darwin" ]]; then
         brew install zsh-syntax-highlighting
         brew tap homebrew/cask-fonts
         brew cask install font-hack-nerd-font
-        brew install tmux
+        brew isntall python
+        brew install byobu 
 
         gem install colorls
 
