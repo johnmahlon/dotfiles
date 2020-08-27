@@ -109,3 +109,4 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias lc='colorls -A --sd --sf'
 PATH=$PATH:$(ruby -e 'puts Gem.bindir')
 [ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa_swiftmandolin

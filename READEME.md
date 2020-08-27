@@ -1,5 +1,3 @@
 # dotfiles
+My dotfiles and a script to get it running. Pretty basic!
 
-I currently use a configuration of zsh, oh-my-zsh, & vim
-
-- Install zsh
