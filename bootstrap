@@ -30,4 +30,5 @@ if [[ `uname` == "Darwin" ]]; then
 
     fi
 fi
+source ~/.local.bootstrap
 
