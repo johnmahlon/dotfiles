@@ -1,5 +1,6 @@
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 ##
 # Your previous /Users/john/.zprofile file was backed up as /Users/john/.zprofile.macports-saved_2020-08-21_at_21:50:04
