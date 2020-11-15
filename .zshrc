@@ -112,3 +112,6 @@ PATH=$PATH:$(ruby -e 'puts Gem.bindir')
 
 typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[globbing]='none'
+PATH="$(brew --prefix)/opt/coreutils/libexec/gnubin:$PATH"
+alias weather="curl wttr.in"
+alias moon="curl wttr.in/Moon"
