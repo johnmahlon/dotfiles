@@ -10,3 +10,4 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 source ~/.local.bootstrap
+eval "$(/opt/homebrew/bin/brew shellenv)"

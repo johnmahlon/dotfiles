@@ -21,12 +21,7 @@ if [[ `uname` == "Darwin" ]]; then
 
         brew install ruby
         brew install zsh-syntax-highlighting
-        brew tap homebrew/cask-fonts
-        brew cask install font-hack-nerd-font
-        brew isntall python
-        brew install byobu 
-        brew install cloudflare/cloudflare/cloudflared
-        gem install colorls
+        brew install python
 
     fi
 fi

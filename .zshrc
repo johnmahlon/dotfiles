@@ -104,10 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
-source $(dirname $(gem which colorls))/tab_complete.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias lc='colorls -A --sd --sf'
 PATH=$PATH:$(ruby -e 'puts Gem.bindir')
+eval "$(/opt/homebrew/bin/brew shellenv)"
 [ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"
 
 typeset -A ZSH_HIGHLIGHT_STYLES
